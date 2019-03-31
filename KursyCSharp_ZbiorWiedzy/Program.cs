@@ -31,13 +31,11 @@ namespace KursyCSharp_ZbiorWiedzy
             PrzypiszNowaWartosc(staraWartosc);
             Console.WriteLine(staraWartosc); //!!!
             Console.WriteLine(PrzypiszNowaWartosc(staraWartosc));
-            Console.ReadLine();
 
             // użycie get, set
             Samochod skoda = new Samochod("Skoda", 2018);
             Console.WriteLine(skoda.marka);
             Console.WriteLine(skoda.rok_produkcji);
-            Console.ReadLine();
 
             // zamiast if można stosować operator trójargumentowy - przypisze 0 jeśli true lub age gdy false
             int age = 0;
@@ -51,6 +49,16 @@ namespace KursyCSharp_ZbiorWiedzy
             string name1 = "haha";
             string name2 = "hehe";
             bool areEqual = name1.Equals(name2, StringComparison.CurrentCultureIgnoreCase);
+
+            //data do zmiennej
+            DateTime date = new DateTime(2019, 3, 17);
+
+            //formatowanie na float z dwoma miejscami po przecinku
+            string tekst = "haha";
+            Console.WriteLine("{0:F2} - {1}", 5, tekst);
+            //formatowanie na currency z jednym miejscem po przecinku i ze zmienną od razu
+            Console.WriteLine($"{0:C1} - {tekst}", 5);
+            Console.ReadLine();
         }
     }
 }
