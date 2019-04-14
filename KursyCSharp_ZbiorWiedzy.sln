@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KursyCSharp_ZbiorWiedzy", "KursyCSharp_ZbiorWiedzy\KursyCSharp_ZbiorWiedzy.csproj", "{138BE4C5-53AB-48A4-82B6-DEBE822C974A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KursyCSharp_ZbiorWiedzy", "KursyCSharp_ZbiorWiedzy\KursyCSharp_ZbiorWiedzy.csproj", "{138BE4C5-53AB-48A4-82B6-DEBE822C974A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegaty", "Delegaty\Delegaty.csproj", "{E163731F-2F9B-46F5-AB9E-5B188FA17ADC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatyOrg", "DelegatyOrg\DelegatyOrg.csproj", "{7654EE27-2B8A-48E4-9EA9-BBA9FC20B2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoloLearnBasics", "SoloLearnBasics\SoloLearnBasics.csproj", "{1AA35423-CAAB-4EC2-A8ED-96E58158F8FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{138BE4C5-53AB-48A4-82B6-DEBE822C974A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{138BE4C5-53AB-48A4-82B6-DEBE822C974A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{138BE4C5-53AB-48A4-82B6-DEBE822C974A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E163731F-2F9B-46F5-AB9E-5B188FA17ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E163731F-2F9B-46F5-AB9E-5B188FA17ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E163731F-2F9B-46F5-AB9E-5B188FA17ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E163731F-2F9B-46F5-AB9E-5B188FA17ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7654EE27-2B8A-48E4-9EA9-BBA9FC20B2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7654EE27-2B8A-48E4-9EA9-BBA9FC20B2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7654EE27-2B8A-48E4-9EA9-BBA9FC20B2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7654EE27-2B8A-48E4-9EA9-BBA9FC20B2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA35423-CAAB-4EC2-A8ED-96E58158F8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA35423-CAAB-4EC2-A8ED-96E58158F8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA35423-CAAB-4EC2-A8ED-96E58158F8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA35423-CAAB-4EC2-A8ED-96E58158F8FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
